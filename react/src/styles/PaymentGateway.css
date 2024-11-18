@@ -1,0 +1,74 @@
+.paymentGateway {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .paymentSummary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .paymentItemImage {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    object-fit: cover; /* Ensure image fits consistently */
+  }
+  
+  .paymentSummary h2 {
+    margin-bottom: 5px;
+  }
+  
+  .paymentSummary p {
+    margin: 5px 0;
+  }
+  
+  .deliveryDetails textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+  }
+  
+  .paymentMethods {
+    margin-top: 20px;
+  }
+  
+  .paymentMethods label {
+    display: block;
+    margin: 5px 0;
+  }
+ 
+  .payNowBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payNowBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .backButton {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .backButton:hover {
+    color: #555;
+  }
+  
